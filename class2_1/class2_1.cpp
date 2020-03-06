@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-	cv::Mat src_color = imread("D:\\testImage\\solar_cell_01.png");
+	cv::Mat src_color = imread("D:\\solar_cell_01.png");
 	std::vector<cv::Mat> channels;
 	cv::split(src_color, channels);
 	cv::Mat B = channels.at(0);
